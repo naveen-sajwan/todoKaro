@@ -1,0 +1,26 @@
+.user_img{
+	width: 55px;
+	height: 55px;
+}
+.navbar-brand{
+	color: #30D5C8;
+}
+
+.nav-item{
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.nav-item a{
+	padding-left: 5px;
+
+}
+
+.todo_icon{
+	font-size: 48px;
+}
+.btn-nav{
+	background-color: #30D5C8;
+	border-radius: 7px;
+	color: #fff !important;
+}

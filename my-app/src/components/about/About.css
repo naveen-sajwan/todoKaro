@@ -1,0 +1,12 @@
+.About_Page{
+	width: 100%;
+	height: 100vh;
+}
+
+.About_Page p{
+	text-align: justify;
+}
+
+.About_Page h1{
+	border-bottom: 2px dashed #30D5C8;
+}

@@ -1,0 +1,77 @@
+.todo{
+	width: 100%;
+	min-height: 100vh;
+	max-height: auto;
+	position: relative;
+}
+
+.todo-update{
+	width: 100%;
+	min-height: 80vh;
+	position: absolute;
+	position: fixed;
+	left: 0;
+	top: 80px;
+	background-color: #bbfffa;
+	;
+}
+
+#todo-update{
+	display: none;
+}
+
+/*.btn_dark{
+	background-color: #111;
+	color: #30D5C8;
+}*/
+
+
+.todo-inputs{
+	border: none;
+	border-left: 3px solid #111;
+	outline: none;
+	border-radius: 0px 8px 8px 0px;
+}
+
+.todo-inputs-div{
+	border-radius: 8px;
+	box-shadow: 2px 5px 8px 10px #D7F2EF;
+}
+
+#textarea{
+	display: none;
+}
+
+#display_body{
+	display: block;
+}
+
+.todo-card{
+	border: 2px solid #30D5C8;
+	border-radius: 10px;
+}
+
+.card-icons{
+	font-size: 18px;
+	transition: 0.3s ease;
+
+}
+
+.update{
+	color: #006400;
+}
+
+.del{
+	color: #ff0000;
+}
+
+.card-icon-head{
+	padding: 2px;
+	cursor: pointer;
+}
+
+.card-icon-head:hover{
+	box-shadow: 8px 7px 5px 3px #616161;
+	transition: 0.5s ease;
+}
+
